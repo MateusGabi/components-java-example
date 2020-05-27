@@ -4,8 +4,8 @@ import com.github.mateusgabi.components.BoardGame.IMovement;
 
 public class Queen extends ChessPiece {
 
-    public Queen() {
-        super(Type.QUEEN);
+    public Queen(Variant variant) {
+        super(Type.QUEEN, variant);
     }
 
     @Override

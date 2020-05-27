@@ -14,8 +14,8 @@ public class ChessBoard implements IBoardGame {
     public ChessBoard() {
         // set pieces;
         this.pieces = new ArrayList<>(64);
-        this.pieces.add(0, new King());
-        this.pieces.add(1, new Queen());
+        this.pieces.add(0, new King(ChessPiece.Variant.BLACK));
+        this.pieces.add(1, new Queen(ChessPiece.Variant.BLACK));
     }
 
     @Override

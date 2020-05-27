@@ -4,8 +4,8 @@ import com.github.mateusgabi.components.BoardGame.IMovement;
 import com.github.mateusgabi.components.BoardGame.Position;
 
 public class King extends ChessPiece {
-    public King() {
-        super(Type.KING);
+    public King(Variant variant) {
+        super(Type.KING, variant);
     }
 
     @Override
